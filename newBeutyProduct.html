@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./header/header.css" rel="stylesheet">
+    <link href="./footer/footer.css" rel="stylesheet">
+    <link href="./css/newBeutyProduct.css" rel="stylesheet">
+    <link rel = "icon" href = 
+"https://www.sephora.com/img/ufe/favicon.ico" 
+        type = "image/x-icon">
+</head>
+<body>
+    <div id="NAvbar"></div>
+
+
+    <div class="container">
+        
+        <div class="filter">
+            <div class="New">
+
+            </div>
+            <div class="line">
+
+            </div>
+            <br>
+            <div class="filterul">
+                <h1 style="font-weight: bold; font-size: 20px;" >NEW</h1>
+                <br>
+                <ul>
+                    <li><a id="anchor1" class="anchor1" href="#" onclick="JustDroped()">Just Droped </a></li>
+                    <li><a id="anchor1" class="anchor1" href="#" onclick="Makeup()">Makeup </a></li>
+                    <li><a id="anchor1" class="anchor1" href="#" onclick="skinCare()">skinCare</a></li>
+                    <li><a id="anchor1" class="anchor1" href="#" onclick="Fragnance()">Fragnance  </a></li>
+                    <li><a id="anchor1" class="anchor1" href="#" onclick="BothSoap()">Both & Soap</a></li>
+                    <li><a id="anchor1" class="anchor1" href="#" onclick="Hairs()">Hairs</a></li>
+                    <li><a id="anchor1" class="anchor1" href="#" onclick="ToolsBrushesh()">Tools & Brushesh</a></li>
+
+
+                </ul>
+            </div>
+            <br>
+            <div class="line">
+
+            </div>
+            
+        </div>
+        <div class="gridContainer">
+            <div class="Hedding21"><p id="Hedding21" style="text-align: center; color: black; font-size: 25px;"> </p></div>
+            <div class="ProductDiscription" id="ProductDiscription">
+                
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <div id="footerOut"></div>
+    
+</body>
+</html>
+<script src="./js/newBeutyProduct.js">
+    
+
+</script>
+<script type="module">
+
+    import header from './header/header.js'
+    //console.log(Navbar())
+    let navBar = document.getElementById('NAvbar')
+    navBar.innerHTML = header()
+    
+    import footer from './footer/footer.js'
+    let Footer1 = document.getElementById('footerOut');
+    Footer1.innerHTML = footer();
+
+    
+</script>

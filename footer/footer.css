@@ -1,0 +1,56 @@
+.footerBox{
+    background-color:black;
+}
+
+.footerInnerBox{
+    width: 80%;
+    height: auto;
+    margin: auto;
+
+}
+.SectionTitle{
+    color: #ccc;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.liObject{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+ul{
+    list-style: none;
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+.LiBox{
+    width: 17%;
+    display: inline-flex;
+}
+.IndexAndSocialMedia{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+    display: inline-flex;
+}
+.Index{
+    width: 85%;
+    
+}
+.SocialMedia{
+    width: 14%;
+    
+    display: inline-flex;
+}
+#IndexAncher{
+    margin-right: 20px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+svg{
+    margin-right: 15px;
+    margin-top: 15px;
+}
