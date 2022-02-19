@@ -7,6 +7,6 @@ Sephora is a French multinational retailer of personal care and beauty products.
 
 <p>1. Home Page </p>
 
-<img src="https://github.com/HelloMoto069/Sephora-Clone/blob/main/sephora.jpg"/>
+<img src="https://github.com/HelloMoto069/Sephora-Clone/blob/main/image_2022-02-19_161702.png"/>
 
 
